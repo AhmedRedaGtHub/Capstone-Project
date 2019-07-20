@@ -1,0 +1,1681 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_8aad537eee5743cc80ef22511b0bb867 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_8aad537eee5743cc80ef22511b0bb867" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_8aad537eee5743cc80ef22511b0bb867 = L.map(
+                                  'map_8aad537eee5743cc80ef22511b0bb867',
+                                  {center: [30.02866,31.128358],
+                                  zoom: 10,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_639ddef704264076b335515b970c2f6e = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+        
+    
+            var circle_marker_6b1345755cdc45e29cf07fcf21159d0b = L.circleMarker(
+                [30.04798649820148,31.205014534860112],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_e8f6fa210d6d48acb0178e77a2a077aa = L.popup({maxWidth: '300'});
+
+            
+                var html_5157e2e4d5084c70a7f14bbb1b305722 = $('<div id="html_5157e2e4d5084c70a7f14bbb1b305722" style="width: 100.0%; height: 100.0%;">True Gym</div>')[0];
+                popup_e8f6fa210d6d48acb0178e77a2a077aa.setContent(html_5157e2e4d5084c70a7f14bbb1b305722);
+            
+
+            circle_marker_6b1345755cdc45e29cf07fcf21159d0b.bindPopup(popup_e8f6fa210d6d48acb0178e77a2a077aa);
+
+            
+        
+    
+            var circle_marker_3d1c375c0c21405084eaacf17add8740 = L.circleMarker(
+                [30.04731186646325,31.222416487533046],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_35d9b320768f42f999b1226be5b104c9 = L.popup({maxWidth: '300'});
+
+            
+                var html_580d89118eeb4ee7a54187b3bb9d0962 = $('<div id="html_580d89118eeb4ee7a54187b3bb9d0962" style="width: 100.0%; height: 100.0%;">Gezira Police Club (نادي الشرطة بالجزيرة)</div>')[0];
+                popup_35d9b320768f42f999b1226be5b104c9.setContent(html_580d89118eeb4ee7a54187b3bb9d0962);
+            
+
+            circle_marker_3d1c375c0c21405084eaacf17add8740.bindPopup(popup_35d9b320768f42f999b1226be5b104c9);
+
+            
+        
+    
+            var circle_marker_42630f47a4f74714b9113064f99c7312 = L.circleMarker(
+                [30.05524829594592,31.223792831282456],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_9a295fa4087343c4beba93eb380c234a = L.popup({maxWidth: '300'});
+
+            
+                var html_3ed078f7ea094b1995ec6d718f76cad2 = $('<div id="html_3ed078f7ea094b1995ec6d718f76cad2" style="width: 100.0%; height: 100.0%;">GSC Gym</div>')[0];
+                popup_9a295fa4087343c4beba93eb380c234a.setContent(html_3ed078f7ea094b1995ec6d718f76cad2);
+            
+
+            circle_marker_42630f47a4f74714b9113064f99c7312.bindPopup(popup_9a295fa4087343c4beba93eb380c234a);
+
+            
+        
+    
+            var circle_marker_99d5219b81c6471d902befd42e928cbc = L.circleMarker(
+                [30.044372000621028,31.201954890552667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_6197be6bcc5a4e84a3ca5cf67b4fec0c = L.popup({maxWidth: '300'});
+
+            
+                var html_94636aa80f0649f8b5feec0cb16cecc8 = $('<div id="html_94636aa80f0649f8b5feec0cb16cecc8" style="width: 100.0%; height: 100.0%;">Egyptian Shooting Club (نادى الصيد المصرى)</div>')[0];
+                popup_6197be6bcc5a4e84a3ca5cf67b4fec0c.setContent(html_94636aa80f0649f8b5feec0cb16cecc8);
+            
+
+            circle_marker_99d5219b81c6471d902befd42e928cbc.bindPopup(popup_6197be6bcc5a4e84a3ca5cf67b4fec0c);
+
+            
+        
+    
+            var circle_marker_c48592a9cfc346d1b36178e57d39ba4d = L.circleMarker(
+                [30.05324440403166,31.22396613215141],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_d87d48bd9cb74516bd45e2c6d15c1eb2 = L.popup({maxWidth: '300'});
+
+            
+                var html_afd91efa8d3c4b3b9ee13d00cb5a2baf = $('<div id="html_afd91efa8d3c4b3b9ee13d00cb5a2baf" style="width: 100.0%; height: 100.0%;">Gezira Sporting Club (نادي الجزيرة الرياضي)</div>')[0];
+                popup_d87d48bd9cb74516bd45e2c6d15c1eb2.setContent(html_afd91efa8d3c4b3b9ee13d00cb5a2baf);
+            
+
+            circle_marker_c48592a9cfc346d1b36178e57d39ba4d.bindPopup(popup_d87d48bd9cb74516bd45e2c6d15c1eb2);
+
+            
+        
+    
+            var circle_marker_70e308ff0a5c4ecaa290546413c26658 = L.circleMarker(
+                [30.044792647871972,31.221416906659183],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_247ac6ce597348a88f3b2a23e22131e8 = L.popup({maxWidth: '300'});
+
+            
+                var html_77d3f1476c974a2b8e5ab31229527263 = $('<div id="html_77d3f1476c974a2b8e5ab31229527263" style="width: 100.0%; height: 100.0%;">Al-Ahly Club (النادى الأهلى المصرى)</div>')[0];
+                popup_247ac6ce597348a88f3b2a23e22131e8.setContent(html_77d3f1476c974a2b8e5ab31229527263);
+            
+
+            circle_marker_70e308ff0a5c4ecaa290546413c26658.bindPopup(popup_247ac6ce597348a88f3b2a23e22131e8);
+
+            
+        
+    
+            var circle_marker_5951695de76f457c828962514fa9282b = L.circleMarker(
+                [30.04798649820148,31.205014534860112],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_3bf053ad40b64d91a68720f106d36c02 = L.popup({maxWidth: '300'});
+
+            
+                var html_d2129ab176aa41069c25471f194403d8 = $('<div id="html_d2129ab176aa41069c25471f194403d8" style="width: 100.0%; height: 100.0%;">True Gym</div>')[0];
+                popup_3bf053ad40b64d91a68720f106d36c02.setContent(html_d2129ab176aa41069c25471f194403d8);
+            
+
+            circle_marker_5951695de76f457c828962514fa9282b.bindPopup(popup_3bf053ad40b64d91a68720f106d36c02);
+
+            
+        
+    
+            var circle_marker_47e19ec9f99f4755998e5d17c0c24e64 = L.circleMarker(
+                [30.04536234466883,31.19980218729589],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_4dfae3e87f8142f89832c54496672489 = L.popup({maxWidth: '300'});
+
+            
+                var html_d123214b662a44be97ec4e51c2b5f16b = $('<div id="html_d123214b662a44be97ec4e51c2b5f16b" style="width: 100.0%; height: 100.0%;">ESC Gym</div>')[0];
+                popup_4dfae3e87f8142f89832c54496672489.setContent(html_d123214b662a44be97ec4e51c2b5f16b);
+            
+
+            circle_marker_47e19ec9f99f4755998e5d17c0c24e64.bindPopup(popup_4dfae3e87f8142f89832c54496672489);
+
+            
+        
+    
+            var circle_marker_56e0ba71794446169a6cbbd9c927695b = L.circleMarker(
+                [30.05422052691407,31.200914888147338],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_23cdec30bed64116b322a568d3f88be1 = L.popup({maxWidth: '300'});
+
+            
+                var html_3b7fcd8edea945cb802f3837dfb5b2d7 = $('<div id="html_3b7fcd8edea945cb802f3837dfb5b2d7" style="width: 100.0%; height: 100.0%;">Samia Allouba Gym (سامية علوبة)</div>')[0];
+                popup_23cdec30bed64116b322a568d3f88be1.setContent(html_3b7fcd8edea945cb802f3837dfb5b2d7);
+            
+
+            circle_marker_56e0ba71794446169a6cbbd9c927695b.bindPopup(popup_23cdec30bed64116b322a568d3f88be1);
+
+            
+        
+    
+            var circle_marker_86feda1cc86d4f89aa2a44e07ccac63b = L.circleMarker(
+                [30.044792647871972,31.221416906659183],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_4337f79ec8d748cb8325ca15f49c030c = L.popup({maxWidth: '300'});
+
+            
+                var html_de1a0a89231842b98423e1678bd23da7 = $('<div id="html_de1a0a89231842b98423e1678bd23da7" style="width: 100.0%; height: 100.0%;">Al-Ahly Club (النادى الأهلى المصرى)</div>')[0];
+                popup_4337f79ec8d748cb8325ca15f49c030c.setContent(html_de1a0a89231842b98423e1678bd23da7);
+            
+
+            circle_marker_86feda1cc86d4f89aa2a44e07ccac63b.bindPopup(popup_4337f79ec8d748cb8325ca15f49c030c);
+
+            
+        
+    
+            var circle_marker_7f9810205a264616ba9029dcc0effa3b = L.circleMarker(
+                [30.033256347811236,31.21973740070863],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_741f5d465cb04b4ca37985de3cb902b6 = L.popup({maxWidth: '300'});
+
+            
+                var html_4687841906a44e4fa7d5f175b7de8a39 = $('<div id="html_4687841906a44e4fa7d5f175b7de8a39" style="width: 100.0%; height: 100.0%;">Gold’s Gym</div>')[0];
+                popup_741f5d465cb04b4ca37985de3cb902b6.setContent(html_4687841906a44e4fa7d5f175b7de8a39);
+            
+
+            circle_marker_7f9810205a264616ba9029dcc0effa3b.bindPopup(popup_741f5d465cb04b4ca37985de3cb902b6);
+
+            
+        
+    
+            var circle_marker_4ebab774d0f9427ca3823fca7cd1908c = L.circleMarker(
+                [30.041050103234046,31.207783942014835],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_cba5cee9cf05445ea75ffd1b3c12a37c = L.popup({maxWidth: '300'});
+
+            
+                var html_aecc6901a01943f987e2cd3951ffe0db = $('<div id="html_aecc6901a01943f987e2cd3951ffe0db" style="width: 100.0%; height: 100.0%;">World Gym</div>')[0];
+                popup_cba5cee9cf05445ea75ffd1b3c12a37c.setContent(html_aecc6901a01943f987e2cd3951ffe0db);
+            
+
+            circle_marker_4ebab774d0f9427ca3823fca7cd1908c.bindPopup(popup_cba5cee9cf05445ea75ffd1b3c12a37c);
+
+            
+        
+    
+            var circle_marker_19f63f7d9b6b4aaf95e34d8f35dbec4e = L.circleMarker(
+                [30.05324440403166,31.22396613215141],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_3ac96fb8e19c434290ce054ffec2844b = L.popup({maxWidth: '300'});
+
+            
+                var html_84b59f4f17d9442fb457b598729a5542 = $('<div id="html_84b59f4f17d9442fb457b598729a5542" style="width: 100.0%; height: 100.0%;">Gezira Sporting Club (نادي الجزيرة الرياضي)</div>')[0];
+                popup_3ac96fb8e19c434290ce054ffec2844b.setContent(html_84b59f4f17d9442fb457b598729a5542);
+            
+
+            circle_marker_19f63f7d9b6b4aaf95e34d8f35dbec4e.bindPopup(popup_3ac96fb8e19c434290ce054ffec2844b);
+
+            
+        
+    
+            var circle_marker_14fb4a58a9be4117b4edaadceb71bde2 = L.circleMarker(
+                [30.044372000621028,31.201954890552667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_b6782bd5b65d47bb8408c5cb2ad71404 = L.popup({maxWidth: '300'});
+
+            
+                var html_ce73daa9b1db4f1a9290665c29963b42 = $('<div id="html_ce73daa9b1db4f1a9290665c29963b42" style="width: 100.0%; height: 100.0%;">Egyptian Shooting Club (نادى الصيد المصرى)</div>')[0];
+                popup_b6782bd5b65d47bb8408c5cb2ad71404.setContent(html_ce73daa9b1db4f1a9290665c29963b42);
+            
+
+            circle_marker_14fb4a58a9be4117b4edaadceb71bde2.bindPopup(popup_b6782bd5b65d47bb8408c5cb2ad71404);
+
+            
+        
+    
+            var circle_marker_046b672657f747ba8f05398985c90d49 = L.circleMarker(
+                [30.033256347811236,31.21973740070863],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_ae7227db53c746daad3dab0d284f4783 = L.popup({maxWidth: '300'});
+
+            
+                var html_2a5451627d9a4e30a1074b5e1c097f28 = $('<div id="html_2a5451627d9a4e30a1074b5e1c097f28" style="width: 100.0%; height: 100.0%;">Gold’s Gym</div>')[0];
+                popup_ae7227db53c746daad3dab0d284f4783.setContent(html_2a5451627d9a4e30a1074b5e1c097f28);
+            
+
+            circle_marker_046b672657f747ba8f05398985c90d49.bindPopup(popup_ae7227db53c746daad3dab0d284f4783);
+
+            
+        
+    
+            var circle_marker_c7c81df91ba04779942ea890542f6c11 = L.circleMarker(
+                [30.04798649820148,31.205014534860112],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_042858ccc4f44fcc8617ebaaa80dd59c = L.popup({maxWidth: '300'});
+
+            
+                var html_44ad8c32e89a40a28114d03b0d738b40 = $('<div id="html_44ad8c32e89a40a28114d03b0d738b40" style="width: 100.0%; height: 100.0%;">True Gym</div>')[0];
+                popup_042858ccc4f44fcc8617ebaaa80dd59c.setContent(html_44ad8c32e89a40a28114d03b0d738b40);
+            
+
+            circle_marker_c7c81df91ba04779942ea890542f6c11.bindPopup(popup_042858ccc4f44fcc8617ebaaa80dd59c);
+
+            
+        
+    
+            var circle_marker_8caf93b7d2794557898bd2f7eca673b7 = L.circleMarker(
+                [30.05324440403166,31.22396613215141],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_63a6eec471644c53ac1eade4d5e04170 = L.popup({maxWidth: '300'});
+
+            
+                var html_f7f285a4292f4854a82d941d465e9f2c = $('<div id="html_f7f285a4292f4854a82d941d465e9f2c" style="width: 100.0%; height: 100.0%;">Gezira Sporting Club (نادي الجزيرة الرياضي)</div>')[0];
+                popup_63a6eec471644c53ac1eade4d5e04170.setContent(html_f7f285a4292f4854a82d941d465e9f2c);
+            
+
+            circle_marker_8caf93b7d2794557898bd2f7eca673b7.bindPopup(popup_63a6eec471644c53ac1eade4d5e04170);
+
+            
+        
+    
+            var circle_marker_e28ea4807b764e86b4a79bab0d00faa3 = L.circleMarker(
+                [30.024021291923287,31.21741998401369],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_8fd47cc55a7543188b0698a4aa167abe = L.popup({maxWidth: '300'});
+
+            
+                var html_a8d76cb196634ba7b78b6d21e34010e8 = $('<div id="html_a8d76cb196634ba7b78b6d21e34010e8" style="width: 100.0%; height: 100.0%;">Spa at Four Seasons Hotel Cairo at The First Residence</div>')[0];
+                popup_8fd47cc55a7543188b0698a4aa167abe.setContent(html_a8d76cb196634ba7b78b6d21e34010e8);
+            
+
+            circle_marker_e28ea4807b764e86b4a79bab0d00faa3.bindPopup(popup_8fd47cc55a7543188b0698a4aa167abe);
+
+            
+        
+    
+            var circle_marker_d98e3750379244b88d8ce88db290e563 = L.circleMarker(
+                [30.036256869979837,31.22960329055786],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_edc515334f3d44debe0a259fafdacc19 = L.popup({maxWidth: '300'});
+
+            
+                var html_b68183a1e8594c8f81b022416d4d57b1 = $('<div id="html_b68183a1e8594c8f81b022416d4d57b1" style="width: 100.0%; height: 100.0%;">Gym at Four Seasons Hotel Cairo at Nile Plaza</div>')[0];
+                popup_edc515334f3d44debe0a259fafdacc19.setContent(html_b68183a1e8594c8f81b022416d4d57b1);
+            
+
+            circle_marker_d98e3750379244b88d8ce88db290e563.bindPopup(popup_edc515334f3d44debe0a259fafdacc19);
+
+            
+        
+    
+            var circle_marker_0f27e8f100294149b3540653088fbf9e = L.circleMarker(
+                [30.044792647871972,31.221416906659183],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_b1cea72865674007973e3c00be3b49af = L.popup({maxWidth: '300'});
+
+            
+                var html_44f0b0c26f7846f4bda487ee2b3f4f27 = $('<div id="html_44f0b0c26f7846f4bda487ee2b3f4f27" style="width: 100.0%; height: 100.0%;">Al-Ahly Club (النادى الأهلى المصرى)</div>')[0];
+                popup_b1cea72865674007973e3c00be3b49af.setContent(html_44f0b0c26f7846f4bda487ee2b3f4f27);
+            
+
+            circle_marker_0f27e8f100294149b3540653088fbf9e.bindPopup(popup_b1cea72865674007973e3c00be3b49af);
+
+            
+        
+    
+            var circle_marker_8814a7318cb246f395ceb37081b69b29 = L.circleMarker(
+                [30.044372000621028,31.201954890552667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_735c328527f846a09e1939cb87a94c01 = L.popup({maxWidth: '300'});
+
+            
+                var html_c7170de305bc448992077d950cd89d5c = $('<div id="html_c7170de305bc448992077d950cd89d5c" style="width: 100.0%; height: 100.0%;">Egyptian Shooting Club (نادى الصيد المصرى)</div>')[0];
+                popup_735c328527f846a09e1939cb87a94c01.setContent(html_c7170de305bc448992077d950cd89d5c);
+            
+
+            circle_marker_8814a7318cb246f395ceb37081b69b29.bindPopup(popup_735c328527f846a09e1939cb87a94c01);
+
+            
+        
+    
+            var circle_marker_e6e028772d44408b874d96450c2a8670 = L.circleMarker(
+                [30.04731186646325,31.222416487533046],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_de5ef900340640b9b881f0a28ad7f963 = L.popup({maxWidth: '300'});
+
+            
+                var html_dd982b2e45694a2e99795113f7ff71e1 = $('<div id="html_dd982b2e45694a2e99795113f7ff71e1" style="width: 100.0%; height: 100.0%;">Gezira Police Club (نادي الشرطة بالجزيرة)</div>')[0];
+                popup_de5ef900340640b9b881f0a28ad7f963.setContent(html_dd982b2e45694a2e99795113f7ff71e1);
+            
+
+            circle_marker_e6e028772d44408b874d96450c2a8670.bindPopup(popup_de5ef900340640b9b881f0a28ad7f963);
+
+            
+        
+    
+            var circle_marker_e83f91a325f44d348273467836639e53 = L.circleMarker(
+                [30.04536234466883,31.19980218729589],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_480be8ac790a472d8db579c5eeee67ba = L.popup({maxWidth: '300'});
+
+            
+                var html_91386c098b8a4916a4438724871f472a = $('<div id="html_91386c098b8a4916a4438724871f472a" style="width: 100.0%; height: 100.0%;">ESC Gym</div>')[0];
+                popup_480be8ac790a472d8db579c5eeee67ba.setContent(html_91386c098b8a4916a4438724871f472a);
+            
+
+            circle_marker_e83f91a325f44d348273467836639e53.bindPopup(popup_480be8ac790a472d8db579c5eeee67ba);
+
+            
+        
+    
+            var circle_marker_cc4f70348b9c4325a2481d7dcabb4861 = L.circleMarker(
+                [30.036256869979837,31.22960329055786],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_5e7c338149ef4669886379a9a6a0c98e = L.popup({maxWidth: '300'});
+
+            
+                var html_3bdbfb716c0e429d9a152378278b3ab9 = $('<div id="html_3bdbfb716c0e429d9a152378278b3ab9" style="width: 100.0%; height: 100.0%;">Gym at Four Seasons Hotel Cairo at Nile Plaza</div>')[0];
+                popup_5e7c338149ef4669886379a9a6a0c98e.setContent(html_3bdbfb716c0e429d9a152378278b3ab9);
+            
+
+            circle_marker_cc4f70348b9c4325a2481d7dcabb4861.bindPopup(popup_5e7c338149ef4669886379a9a6a0c98e);
+
+            
+        
+    
+            var circle_marker_6e3a82e3eaf1449ab0797ec38d0c2429 = L.circleMarker(
+                [30.033256347811236,31.21973740070863],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_34dde3ab3d8a49a6b8e1c45f63eeba17 = L.popup({maxWidth: '300'});
+
+            
+                var html_f738085e257a4a2a91073114eb3096d1 = $('<div id="html_f738085e257a4a2a91073114eb3096d1" style="width: 100.0%; height: 100.0%;">Gold’s Gym</div>')[0];
+                popup_34dde3ab3d8a49a6b8e1c45f63eeba17.setContent(html_f738085e257a4a2a91073114eb3096d1);
+            
+
+            circle_marker_6e3a82e3eaf1449ab0797ec38d0c2429.bindPopup(popup_34dde3ab3d8a49a6b8e1c45f63eeba17);
+
+            
+        
+    
+            var circle_marker_e493c5468c9b4625b1b3c28b235ffa43 = L.circleMarker(
+                [30.044372000621028,31.201954890552667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_c3bca440302f43739378e9ff3b8dcfbe = L.popup({maxWidth: '300'});
+
+            
+                var html_51dc93ac34f14dbb820d9669bfe261a3 = $('<div id="html_51dc93ac34f14dbb820d9669bfe261a3" style="width: 100.0%; height: 100.0%;">Egyptian Shooting Club (نادى الصيد المصرى)</div>')[0];
+                popup_c3bca440302f43739378e9ff3b8dcfbe.setContent(html_51dc93ac34f14dbb820d9669bfe261a3);
+            
+
+            circle_marker_e493c5468c9b4625b1b3c28b235ffa43.bindPopup(popup_c3bca440302f43739378e9ff3b8dcfbe);
+
+            
+        
+    
+            var circle_marker_a42d1aea5aca4fbe85db14eafbf4ca1b = L.circleMarker(
+                [30.024021291923287,31.21741998401369],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_6e23f9d081604583a867ec407211c74c = L.popup({maxWidth: '300'});
+
+            
+                var html_ddd869bd77b143cdbb8d04ea784ee322 = $('<div id="html_ddd869bd77b143cdbb8d04ea784ee322" style="width: 100.0%; height: 100.0%;">Spa at Four Seasons Hotel Cairo at The First Residence</div>')[0];
+                popup_6e23f9d081604583a867ec407211c74c.setContent(html_ddd869bd77b143cdbb8d04ea784ee322);
+            
+
+            circle_marker_a42d1aea5aca4fbe85db14eafbf4ca1b.bindPopup(popup_6e23f9d081604583a867ec407211c74c);
+
+            
+        
+    
+            var circle_marker_923c9f2ba46d4077bec33944b9a7e01a = L.circleMarker(
+                [30.036256869979837,31.22960329055786],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_71762d72f020413f9f4a0a7f35b9387c = L.popup({maxWidth: '300'});
+
+            
+                var html_ef0ebcac23324e84aadb8143b09f1f0e = $('<div id="html_ef0ebcac23324e84aadb8143b09f1f0e" style="width: 100.0%; height: 100.0%;">Gym at Four Seasons Hotel Cairo at Nile Plaza</div>')[0];
+                popup_71762d72f020413f9f4a0a7f35b9387c.setContent(html_ef0ebcac23324e84aadb8143b09f1f0e);
+            
+
+            circle_marker_923c9f2ba46d4077bec33944b9a7e01a.bindPopup(popup_71762d72f020413f9f4a0a7f35b9387c);
+
+            
+        
+    
+            var circle_marker_0e7c1ecab48f49cf8bd117bac939cbfc = L.circleMarker(
+                [30.024021291923287,31.21741998401369],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_237c07b4b6004f4e96391d1d17346f84 = L.popup({maxWidth: '300'});
+
+            
+                var html_7f5bb2315e074728a872df450c83cc37 = $('<div id="html_7f5bb2315e074728a872df450c83cc37" style="width: 100.0%; height: 100.0%;">Spa at Four Seasons Hotel Cairo at The First Residence</div>')[0];
+                popup_237c07b4b6004f4e96391d1d17346f84.setContent(html_7f5bb2315e074728a872df450c83cc37);
+            
+
+            circle_marker_0e7c1ecab48f49cf8bd117bac939cbfc.bindPopup(popup_237c07b4b6004f4e96391d1d17346f84);
+
+            
+        
+    
+            var circle_marker_dfad4be6054a4ed386e0b3d997a1af9b = L.circleMarker(
+                [30.033256347811236,31.21973740070863],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_3360ad79dd654057a7724d8c1cc3f88f = L.popup({maxWidth: '300'});
+
+            
+                var html_0e3c402184b745df97658bfee8d5d20c = $('<div id="html_0e3c402184b745df97658bfee8d5d20c" style="width: 100.0%; height: 100.0%;">Gold’s Gym</div>')[0];
+                popup_3360ad79dd654057a7724d8c1cc3f88f.setContent(html_0e3c402184b745df97658bfee8d5d20c);
+            
+
+            circle_marker_dfad4be6054a4ed386e0b3d997a1af9b.bindPopup(popup_3360ad79dd654057a7724d8c1cc3f88f);
+
+            
+        
+    
+            var circle_marker_3d5fe083e18347cc81d70813e7bdcc6a = L.circleMarker(
+                [30.044372000621028,31.201954890552667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_b32bd259814a47a081387d9198dd53e1 = L.popup({maxWidth: '300'});
+
+            
+                var html_c0a88905860546dfb108ffddb4f50bcf = $('<div id="html_c0a88905860546dfb108ffddb4f50bcf" style="width: 100.0%; height: 100.0%;">Egyptian Shooting Club (نادى الصيد المصرى)</div>')[0];
+                popup_b32bd259814a47a081387d9198dd53e1.setContent(html_c0a88905860546dfb108ffddb4f50bcf);
+            
+
+            circle_marker_3d5fe083e18347cc81d70813e7bdcc6a.bindPopup(popup_b32bd259814a47a081387d9198dd53e1);
+
+            
+        
+    
+            var circle_marker_31e50cf850ff4c3b9bca09108447f231 = L.circleMarker(
+                [30.044792647871972,31.221416906659183],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_4b96bce7e8534d54af46d281e58298ce = L.popup({maxWidth: '300'});
+
+            
+                var html_21ac716b0f8a482aa62a32f5af867ec7 = $('<div id="html_21ac716b0f8a482aa62a32f5af867ec7" style="width: 100.0%; height: 100.0%;">Al-Ahly Club (النادى الأهلى المصرى)</div>')[0];
+                popup_4b96bce7e8534d54af46d281e58298ce.setContent(html_21ac716b0f8a482aa62a32f5af867ec7);
+            
+
+            circle_marker_31e50cf850ff4c3b9bca09108447f231.bindPopup(popup_4b96bce7e8534d54af46d281e58298ce);
+
+            
+        
+    
+            var circle_marker_5f56cf526a324a97967470488a67fc91 = L.circleMarker(
+                [30.05324440403166,31.22396613215141],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_09bb2400dcc14a68a3d4a166dff55fd2 = L.popup({maxWidth: '300'});
+
+            
+                var html_db3dd005ddea468dbc268dce7c0cb61e = $('<div id="html_db3dd005ddea468dbc268dce7c0cb61e" style="width: 100.0%; height: 100.0%;">Gezira Sporting Club (نادي الجزيرة الرياضي)</div>')[0];
+                popup_09bb2400dcc14a68a3d4a166dff55fd2.setContent(html_db3dd005ddea468dbc268dce7c0cb61e);
+            
+
+            circle_marker_5f56cf526a324a97967470488a67fc91.bindPopup(popup_09bb2400dcc14a68a3d4a166dff55fd2);
+
+            
+        
+    
+            var circle_marker_2d137973d44d4bde836db8185357dce6 = L.circleMarker(
+                [30.05524829594592,31.223792831282456],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_3a0929413f3543a0b49ae4b403c243be = L.popup({maxWidth: '300'});
+
+            
+                var html_818e318e997047bea04961d9de2ff9d8 = $('<div id="html_818e318e997047bea04961d9de2ff9d8" style="width: 100.0%; height: 100.0%;">GSC Gym</div>')[0];
+                popup_3a0929413f3543a0b49ae4b403c243be.setContent(html_818e318e997047bea04961d9de2ff9d8);
+            
+
+            circle_marker_2d137973d44d4bde836db8185357dce6.bindPopup(popup_3a0929413f3543a0b49ae4b403c243be);
+
+            
+        
+    
+            var circle_marker_6b03a36197ff4fdd937f927edba106cc = L.circleMarker(
+                [29.96835367347035,31.09751786817676],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_f3a325c99692452293d21b4d37af1992 = L.popup({maxWidth: '300'});
+
+            
+                var html_b8d0af45a6b14542b14168698e95922d = $('<div id="html_b8d0af45a6b14542b14168698e95922d" style="width: 100.0%; height: 100.0%;">نادى حدائق الأهرام</div>')[0];
+                popup_f3a325c99692452293d21b4d37af1992.setContent(html_b8d0af45a6b14542b14168698e95922d);
+            
+
+            circle_marker_6b03a36197ff4fdd937f927edba106cc.bindPopup(popup_f3a325c99692452293d21b4d37af1992);
+
+            
+        
+    
+            var circle_marker_d0744f7c157d4cedb07306a120aeb86c = L.circleMarker(
+                [29.971028045193467,31.09818382475732],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_6a90f8990cb2402dbfd6db41df942756 = L.popup({maxWidth: '300'});
+
+            
+                var html_8953b44c2ca64e07b5c7b9e9673a2f93 = $('<div id="html_8953b44c2ca64e07b5c7b9e9673a2f93" style="width: 100.0%; height: 100.0%;">Hadayek El Ahram Club (نادي حدائق الاهرام)</div>')[0];
+                popup_6a90f8990cb2402dbfd6db41df942756.setContent(html_8953b44c2ca64e07b5c7b9e9673a2f93);
+            
+
+            circle_marker_d0744f7c157d4cedb07306a120aeb86c.bindPopup(popup_6a90f8990cb2402dbfd6db41df942756);
+
+            
+        
+    
+            var circle_marker_57dfdb894fe8471a8a68170bf5118b11 = L.circleMarker(
+                [30.06225275293523,30.99151101883161],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_15def13e12c745df9a8043f0758b7a8e = L.popup({maxWidth: '300'});
+
+            
+                var html_ca719eb1434e4bf1b9ae6b962f04d38d = $('<div id="html_ca719eb1434e4bf1b9ae6b962f04d38d" style="width: 100.0%; height: 100.0%;">El Rabwa Club</div>')[0];
+                popup_15def13e12c745df9a8043f0758b7a8e.setContent(html_ca719eb1434e4bf1b9ae6b962f04d38d);
+            
+
+            circle_marker_57dfdb894fe8471a8a68170bf5118b11.bindPopup(popup_15def13e12c745df9a8043f0758b7a8e);
+
+            
+        
+    
+            var circle_marker_8b761c9220874e1982a9e112c0885407 = L.circleMarker(
+                [30.08230551573596,30.975451271405728],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_48c53ff2ec3a4807bfd2ec42d299ebbd = L.popup({maxWidth: '300'});
+
+            
+                var html_5ca3e18a77af4617995c002533e2406f = $('<div id="html_5ca3e18a77af4617995c002533e2406f" style="width: 100.0%; height: 100.0%;">Al-Ahly Club (النادى الأهلى المصرى)</div>')[0];
+                popup_48c53ff2ec3a4807bfd2ec42d299ebbd.setContent(html_5ca3e18a77af4617995c002533e2406f);
+            
+
+            circle_marker_8b761c9220874e1982a9e112c0885407.bindPopup(popup_48c53ff2ec3a4807bfd2ec42d299ebbd);
+
+            
+        
+    
+            var circle_marker_93baf1619ac84ccca059560353ec34ce = L.circleMarker(
+                [30.074141558749325,31.01471462961559],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_5e62c5ff8b614357a7ae8d6fdf68bb99 = L.popup({maxWidth: '300'});
+
+            
+                var html_f15e7222a08c46b8be07c06233ca32e5 = $('<div id="html_f15e7222a08c46b8be07c06233ca32e5" style="width: 100.0%; height: 100.0%;">Smart Village Club</div>')[0];
+                popup_5e62c5ff8b614357a7ae8d6fdf68bb99.setContent(html_f15e7222a08c46b8be07c06233ca32e5);
+            
+
+            circle_marker_93baf1619ac84ccca059560353ec34ce.bindPopup(popup_5e62c5ff8b614357a7ae8d6fdf68bb99);
+
+            
+        
+    
+            var circle_marker_e941a7eb8cee4c11bb0c10523f51730a = L.circleMarker(
+                [30.02016866503105,31.00270986557007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_56cd6ad0c72a41c6bfa491742cacc7c1 = L.popup({maxWidth: '300'});
+
+            
+                var html_be17d5972c264dee9ddf52c738f947bb = $('<div id="html_be17d5972c264dee9ddf52c738f947bb" style="width: 100.0%; height: 100.0%;">Powerhouse Gym</div>')[0];
+                popup_56cd6ad0c72a41c6bfa491742cacc7c1.setContent(html_be17d5972c264dee9ddf52c738f947bb);
+            
+
+            circle_marker_e941a7eb8cee4c11bb0c10523f51730a.bindPopup(popup_56cd6ad0c72a41c6bfa491742cacc7c1);
+
+            
+        
+    
+            var circle_marker_1742fa9b18344b4fb97f423d1ba8b737 = L.circleMarker(
+                [30.074579184020166,31.01409861249731],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_f27702dd60f743b2b5821d7d480b588c = L.popup({maxWidth: '300'});
+
+            
+                var html_917f5191b1b34d169cc704377d72028c = $('<div id="html_917f5191b1b34d169cc704377d72028c" style="width: 100.0%; height: 100.0%;">Smash Club</div>')[0];
+                popup_f27702dd60f743b2b5821d7d480b588c.setContent(html_917f5191b1b34d169cc704377d72028c);
+            
+
+            circle_marker_1742fa9b18344b4fb97f423d1ba8b737.bindPopup(popup_f27702dd60f743b2b5821d7d480b588c);
+
+            
+        
+    
+            var circle_marker_4a2dde10b8794562906d753a15150c4a = L.circleMarker(
+                [30.027259589995243,30.99642811171469],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_44305de8c3464f5295803397414b02d4 = L.popup({maxWidth: '300'});
+
+            
+                var html_a6bdc43b446c4619b71ee95980a79ca2 = $('<div id="html_a6bdc43b446c4619b71ee95980a79ca2" style="width: 100.0%; height: 100.0%;">Gold&#39;s Gym</div>')[0];
+                popup_44305de8c3464f5295803397414b02d4.setContent(html_a6bdc43b446c4619b71ee95980a79ca2);
+            
+
+            circle_marker_4a2dde10b8794562906d753a15150c4a.bindPopup(popup_44305de8c3464f5295803397414b02d4);
+
+            
+        
+    
+            var circle_marker_95f58ccbceb3465dbe8ad609cafbc0c8 = L.circleMarker(
+                [30.044921124658863,30.981217245629242],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_d76137cb87b64d778a4eda454de17df0 = L.popup({maxWidth: '300'});
+
+            
+                var html_b37d27e659e5468090a6c0ec30abe9c8 = $('<div id="html_b37d27e659e5468090a6c0ec30abe9c8" style="width: 100.0%; height: 100.0%;">Seven Eleven Zayed</div>')[0];
+                popup_d76137cb87b64d778a4eda454de17df0.setContent(html_b37d27e659e5468090a6c0ec30abe9c8);
+            
+
+            circle_marker_95f58ccbceb3465dbe8ad609cafbc0c8.bindPopup(popup_d76137cb87b64d778a4eda454de17df0);
+
+            
+        
+    
+            var circle_marker_6692627e5cc2427ea4c30e2fb521a6b9 = L.circleMarker(
+                [30.001322294539744,30.959155230829428],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_0c59e5cd192d4185a384361905caf245 = L.popup({maxWidth: '300'});
+
+            
+                var html_b757461f5d144e36b735bac5e0b42cd7 = $('<div id="html_b757461f5d144e36b735bac5e0b42cd7" style="width: 100.0%; height: 100.0%;">iFitness</div>')[0];
+                popup_0c59e5cd192d4185a384361905caf245.setContent(html_b757461f5d144e36b735bac5e0b42cd7);
+            
+
+            circle_marker_6692627e5cc2427ea4c30e2fb521a6b9.bindPopup(popup_0c59e5cd192d4185a384361905caf245);
+
+            
+        
+    
+            var circle_marker_bd40b4d4aedf44cd83968a15298c0307 = L.circleMarker(
+                [29.994740049808406,30.96737368106317],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_8d1ee361c2604dbfab80fc4272a62886 = L.popup({maxWidth: '300'});
+
+            
+                var html_e3b7f9af03c744ee87547f7ed1d5ee25 = $('<div id="html_e3b7f9af03c744ee87547f7ed1d5ee25" style="width: 100.0%; height: 100.0%;">Gold&#39;s Gym</div>')[0];
+                popup_8d1ee361c2604dbfab80fc4272a62886.setContent(html_e3b7f9af03c744ee87547f7ed1d5ee25);
+            
+
+            circle_marker_bd40b4d4aedf44cd83968a15298c0307.bindPopup(popup_8d1ee361c2604dbfab80fc4272a62886);
+
+            
+        
+    
+            var circle_marker_27ad4f10cf6e4722b2b1f1dbbd061e63 = L.circleMarker(
+                [29.981626732058295,30.94974677414571],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_9b1f4455282b4b46b9479cb60eed07d2 = L.popup({maxWidth: '300'});
+
+            
+                var html_7df3354769fa4eb5bcc0e0bb2db3f3e5 = $('<div id="html_7df3354769fa4eb5bcc0e0bb2db3f3e5" style="width: 100.0%; height: 100.0%;">6th of October City Club</div>')[0];
+                popup_9b1f4455282b4b46b9479cb60eed07d2.setContent(html_7df3354769fa4eb5bcc0e0bb2db3f3e5);
+            
+
+            circle_marker_27ad4f10cf6e4722b2b1f1dbbd061e63.bindPopup(popup_9b1f4455282b4b46b9479cb60eed07d2);
+
+            
+        
+    
+            var circle_marker_5788e3217c704640bef16e1089b8fad2 = L.circleMarker(
+                [29.965153975056694,30.964291660458798],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_c832d5d525e646fd84beb9347515f56c = L.popup({maxWidth: '300'});
+
+            
+                var html_6a06219dbe9542ea8e800d76947b2156 = $('<div id="html_6a06219dbe9542ea8e800d76947b2156" style="width: 100.0%; height: 100.0%;">Wadi Degla Club 2 (6th October)</div>')[0];
+                popup_c832d5d525e646fd84beb9347515f56c.setContent(html_6a06219dbe9542ea8e800d76947b2156);
+            
+
+            circle_marker_5788e3217c704640bef16e1089b8fad2.bindPopup(popup_c832d5d525e646fd84beb9347515f56c);
+
+            
+        
+    
+            var circle_marker_d6d8f6a552c94918813548f841098ce9 = L.circleMarker(
+                [29.99863629235123,30.94984763065429],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_a04bcc70ff3e4fbb873983f35878aa3c = L.popup({maxWidth: '300'});
+
+            
+                var html_157ff10fab54482c90bb59783b6ba79d = $('<div id="html_157ff10fab54482c90bb59783b6ba79d" style="width: 100.0%; height: 100.0%;">Egyptian Shooting Club - 6th October (نادي الصيد المصري  ٦ أكتوبر)</div>')[0];
+                popup_a04bcc70ff3e4fbb873983f35878aa3c.setContent(html_157ff10fab54482c90bb59783b6ba79d);
+            
+
+            circle_marker_d6d8f6a552c94918813548f841098ce9.bindPopup(popup_a04bcc70ff3e4fbb873983f35878aa3c);
+
+            
+        
+    
+            var circle_marker_f8076debcdb340f486a0003c4ff5faab = L.circleMarker(
+                [29.992780065536518,30.97418522254022],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8aad537eee5743cc80ef22511b0bb867);
+            
+    
+            var popup_6850271dfd0443f28fc0e71cdf8b4631 = L.popup({maxWidth: '300'});
+
+            
+                var html_5d9f4d64608a4fc7b6a6843062406fd6 = $('<div id="html_5d9f4d64608a4fc7b6a6843062406fd6" style="width: 100.0%; height: 100.0%;">Blackball Club</div>')[0];
+                popup_6850271dfd0443f28fc0e71cdf8b4631.setContent(html_5d9f4d64608a4fc7b6a6843062406fd6);
+            
+
+            circle_marker_f8076debcdb340f486a0003c4ff5faab.bindPopup(popup_6850271dfd0443f28fc0e71cdf8b4631);
+
+            
+        
+</script>
